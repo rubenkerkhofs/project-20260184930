@@ -27,7 +27,6 @@ def convert_to_continous_damage(damage_curves):
     return continuous_curves
 
 BASE_PATH = "https://kuleuven-prisk.s3.eu-central-1.amazonaws.com"
-BASE_PATH = "/Users/ruben/Desktop/do_not_delete"
 
 damage_curves = pd.read_excel(
     f"{BASE_PATH}/damage_curves.xlsx"
